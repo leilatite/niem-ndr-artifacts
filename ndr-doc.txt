@@ -407,6 +407,16 @@ Status
 
       The term "element declaration" is as defined by [XML Schema Structures] Section 2.2.2.1, Element Declaration.
 
+3.4.2. Schema information set contributions
+
+   As described in Section 3.3, XML Information Set terminology, above, the XML Information Set specification defined properties of the content of XML documents. The XML Schema specification also provides properties of the content of XML documents. These properties are called Schema information set contribution, as described by [XML Schema Structures] Section 2.3, Constraints and Validation Rules, which defines them as:
+
+      Augmentations to post-schema-validation infosets expressed by schema components, which follow as a consequence of validation and/or assessment.
+
+   This document uses these property terms within definitions and other text. Terms used include:
+
+      *  [type definition] (of an element): The type of the element as determined at run-time. This will reflect the use of the attribute xsi:type in an XML document.
+
 3.5. XML Namespaces terminology
 
    This document uses XML Namespaces as defined by [XML Namespaces] and [XML Namespaces Errata].
