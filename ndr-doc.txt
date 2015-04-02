@@ -5750,9 +5750,7 @@ Rule 12-5. Attribute structures:ref references element of correct type
 
          *  $element has attribute structures:ref with value $ref
 
-         *  $element has property [element declaration] with value $element-declaration
-
-         *  $element-declaration has property {type definition} with value called the referencing element type definition
+         *  $element has property [type definition] with value called the referencing element type definition.
 
          *  $target is an element information item
 
@@ -5764,7 +5762,7 @@ Rule 12-5. Attribute structures:ref references element of correct type
 
    The term validly derived is as established by [XML Schema Structures] subsection Schema Component Constraint: Type Derivation OK (Complex) within Section 3.4.6, Constraints on Complex Type Definition Schema Components.
 
-   This rule requires that the type of the element information item pointed to by a structures:ref attribute must be of (or derived from) the type that is specified by the element declaration of the reference element.
+   This rule requires that the type of the element pointed to by a structures:ref attribute must be of (or derived from) the type of the reference element.
 
 12.2.1. Reference and content elements have same meaning
 
