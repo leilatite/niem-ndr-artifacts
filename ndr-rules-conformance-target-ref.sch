@@ -658,7 +658,7 @@
   </sch:rule>
 </sch:pattern>
               
-<sch:pattern id="rule_10-19"><sch:title>Association types is derived from association type</sch:title>
+<sch:pattern id="rule_10-19"><sch:title>Association type is derived from association type</sch:title>
   <sch:rule context="xs:complexType">
     <sch:let name="is-association-type" value="exists(@name[ends-with(., 'AssociationType')])"/>
     <sch:let name="has-association-base-type" value="       exists(xs:complexContent[         exists(xs:*[local-name() = ('extension', 'restriction')                     and exists(@base[ends-with(., 'AssociationType')])])])"/>

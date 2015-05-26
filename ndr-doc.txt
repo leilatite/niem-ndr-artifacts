@@ -3751,7 +3751,7 @@ Rule 10-18. Proxy type has designated structure
 
 10.3.1. Association types
 
-Rule 10-19. Association types is derived from association type
+Rule 10-19. Association type is derived from association type
 
    [Rule 10-19] (REF, EXT)
 
@@ -6300,7 +6300,7 @@ Appendix F. Index of rules
    Rule 10-16, External element use has data definition: Section 10.2.3.4, External element use
    Rule 10-17, Name of code type ends in "CodeType": Section 10.2.4, Code types
    Rule 10-18, Proxy type has designated structure: Section 10.2.5, Proxy types
-   Rule 10-19, Association types is derived from association type: Section 10.3.1, Association types
+   Rule 10-19, Association type is derived from association type: Section 10.3.1, Association types
    Rule 10-20, Association element type is an association type: Section 10.3.2, Association element declarations
    Rule 10-21, Augmentable type has augmentation point element: Section 10.4.1, Augmentable types
    Rule 10-22, Augmentable type has at most one augmentation point element: Section 10.4.1, Augmentable types

@@ -350,8 +350,7 @@
   </sch:rule>
 </sch:pattern>
             
-<sch:pattern id="rule_9-62"><sch:title>xs:sequence must be child of xs:extension
-              or xs:restriction</sch:title>
+<sch:pattern id="rule_9-62"><sch:title>xs:sequence must be child of xs:extension or xs:restriction</sch:title>
   <sch:rule context="xs:sequence">
     <sch:assert test="exists(parent::xs:extension) or exists(parent::xs:restriction)">Rule 9-62: An element xs:sequence MUST be a child of element xs:extension or xs:restriction.</sch:assert>
   </sch:rule>
@@ -593,7 +592,7 @@
   </sch:rule>
 </sch:pattern>
               
-<sch:pattern id="rule_10-19"><sch:title>Association types is derived from association type</sch:title>
+<sch:pattern id="rule_10-19"><sch:title>Association type is derived from association type</sch:title>
   <sch:rule context="xs:complexType">
     <sch:let name="is-association-type" value="exists(@name[ends-with(., 'AssociationType')])"/>
     <sch:let name="has-association-base-type" value="       exists(xs:complexContent[         exists(xs:*[local-name() = ('extension', 'restriction')                     and exists(@base[ends-with(., 'AssociationType')])])])"/>
