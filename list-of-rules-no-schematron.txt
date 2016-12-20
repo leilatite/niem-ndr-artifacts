@@ -1,0 +1,63 @@
+	Rule 4-1	Conformance targets defined
+	Rule 4-2	Conformance targets defined
+	Rule 7-5	ISO 11179 Part 5
+	Rule 9-59	Model group
+rule-set-is-closed	Rule 9-90	Schema assembly
+code-classes	Rule 10-1	Categories of NIEM type definitions
+	Rule 10-5	Role types and roles
+	Rule 10-6	Role types and roles
+	Rule 10-8	External adapter types
+ext-attr-not-id	Rule 10-15	External attribute use
+	Rule 10-30	Augmentation types
+aug-type-name	Rule 10-31	Augmentation types
+rule-aug-el-not-used	Rule 10-35	Augmentation element declarations
+	Rule 10-36	Metadata types
+	Rule 10-37	Metadata types
+rule-metadata-applicable-elements	Rule 10-40	Metadata element declarations
+	Rule 10-42	Rules for NIEM modeling, by NIEM concept
+	Rule 10-43	Naming rules
+	Rule 10-44	Naming rules
+	Rule 10-45	Naming rules
+	Rule 10-46	Character case
+	Rule 10-47	Character case
+	Rule 10-48	Character case
+	Rule 10-49	Use of acronyms and abbreviations
+rule-lt-single-doc	Rule 10-50	Use of Acronyms, Initialisms, Abbreviations, and Jargon
+rule-lt-meaning	Rule 10-51	Use of Acronyms, Initialisms, Abbreviations, and Jargon
+	Rule 10-52	Word forms
+	Rule 10-53	Word forms
+	Rule 10-54	Word forms
+	Rule 10-55	Naming rules
+	Rule 10-56	Object-class term
+	Rule 10-57	Property term
+	Rule 10-58	Qualifier terms
+	Rule 10-59	Qualifier terms
+	Rule 10-60	Qualifier terms
+	Rule 10-61	Representation terms
+rule-csc-has-rep-term	Rule 10-62	Representation terms
+	Rule 10-63	Representation terms
+	Rule 10-64	Representation terms
+	Rule 10-65	Machine-readable annotations
+	Rule 10-66	Deprecation
+	Rule 10-76	NIEM structural facilities
+	Rule 11-6	Derivation by list
+rule-decl-introduced-once	Rule 11-21	Element use
+	Rule 11-25	Human-readable documentation
+	Rule 11-26	Human-readable documentation
+	Rule 11-27	Human-readable documentation
+	Rule 11-28	Human-readable documentation
+def-11179-4-req	Rule 11-29	Human-readable documentation
+def-11179-4-rec	Rule 11-30	Human-readable documentation
+	Rule 11-34	xs:schema document element restrictions
+	Rule 11-35	xs:schema document element restrictions
+	Rule 12-1	XML instance document rules
+rule-ref-and-id-have-same-validation-root	Rule 12-4	Reference elements
+	Rule 12-5	Reference elements
+	Rule 12-6	Reference and content elements have same meaning
+	Rule 12-7	XML instance document rules
+	Rule 12-8	Instance metadata
+	Rule 12-9	Instance metadata
+	Rule 12-10	Instance metadata
+	Rule 12-11	Instance metadata
+	Rule 12-12	Instance metadata
+	Rule 12-15	Instance metadata
